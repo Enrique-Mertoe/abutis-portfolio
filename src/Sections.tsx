@@ -283,10 +283,61 @@ const MobileSection = function () {
                 </div>
             </div>
         </section>
+
 )
+}
+const SectionSkills = function (){
+    return (
+        <section className="container section-skills">
+            <div
+                className="bg-dark text-light position-relative overflow-hidden rounded-3 py-lg-3 py-xl-5 px-4 px-lg-5 px-xl-0"
+                 data-bs-theme="dark">
+                <div className="row position-relative zindex-2 py-5 my-1 my-md-3">
+                    <div className="col-md-6">
+                        <div className="mx-auto" >
+                            <h2 className="h1 pb-1 pb-md-3 pb-lg-4">Let's start your investing easier now!</h2>
+                            <ul className="list-unstyled fs-lg d-md-none pb-3">
+                                <li className="d-flex text-body mb-2">
+                                    <i className="bi bi-check lead text-primary me-2" ></i>
+                                    Purus vestibulum pharetra amet tincidunt pretium
+                                </li>
+                                <li className="d-flex text-body mb-2">
+                                    <i className="bi bi-check lead text-primary me-2" ></i>
+                                    Haretra justo magna pharetra dui gravida sed nec
+                                </li>
+                                <li className="d-flex text-body">
+                                    <i className="bi bi-check lead text-primary me-2" ></i>
+                                    Venenatis risus faucibus volutpat amet feugiat a
+                                </li>
+                            </ul>
+                            <a href="#" className="btn btn-lg btn-primary shadow-primary w-100 w-sm-auto">Start trial
+                                now</a>
+                        </div>
+                    </div>
+                    <div className="col-md-6 pt-lg-3 pt-xl-4">
+                        <ul className="list-unstyled fs-lg d-none d-md-block">
+                            <li className="d-flex text-body mb-2">
+                                <i className="bi bi-check lead text-primary me-2" ></i>
+                                Purus vestibulum pharetra amet tincidunt pretium
+                            </li>
+                            <li className="d-flex text-body mb-2">
+                                <i className="bi bi-check lead text-primary me-2" ></i>
+                                Haretra justo magna pharetra dui gravida sed nec
+                            </li>
+                            <li className="d-flex text-body">
+                                <i className="bi bi-check lead text-primary me-2" ></i>
+                                Venenatis risus faucibus volutpat amet feugiat a
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
 export {
     HeroSection,
-        AboutSection,
-        MobileSection
+    AboutSection,
+    MobileSection,
+    SectionSkills,
 }

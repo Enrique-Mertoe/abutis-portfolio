@@ -1,5 +1,5 @@
 import './App.css'
-import {AboutSection, HeroSection, MobileSection} from "./Sections.tsx";
+import {AboutSection, HeroSection, MobileSection, SectionSkills} from "./Sections.tsx";
 import Header from "./header.tsx";
 import Footer from "./footer.tsx";
 
@@ -11,7 +11,9 @@ function App() {
             <div className="vstack">
                 <HeroSection/>
                 <AboutSection/>
+                <SectionSkills/>
                 <MobileSection/>
+
             </div>
             <Footer/>
         </>
