@@ -314,3 +314,13 @@ body {
     background-size: cover;
   }
 }
+
+.fill-warning {
+  fill: var(--bs-warning);
+}
+.z-n1{
+  z-index: -1!important;
+}
+.z-n2{
+  z-index: -2!important;
+}
